@@ -1,6 +1,6 @@
 from langchain_community.document_loaders import CSVLoader
 
-loader = CSVLoader(file_path=r"E:\RAG\documents\Social_Network_Ads.csv")
+loader = CSVLoader(file_path=r"E:\RAG\loaders\documents\Social_Network_Ads.csv")
 
 docs = loader.load()
 

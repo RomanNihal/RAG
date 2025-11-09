@@ -1,7 +1,7 @@
 from langchain_community.document_loaders import DirectoryLoader, PyPDFLoader
 
 loader = DirectoryLoader(
-    path="documents",
+    path=r"E:\RAG\loaders\documents",
     glob="*.pdf",
     loader_cls=PyPDFLoader # type: ignore
 )

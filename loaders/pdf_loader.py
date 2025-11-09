@@ -1,6 +1,6 @@
 from langchain_community.document_loaders import PyPDFLoader
 
-loader = PyPDFLoader(r"E:\RAG\documents\dl-curriculum.pdf")
+loader = PyPDFLoader(r"E:\RAG\loaders\documents\dl-curriculum.pdf")
 
 docs = loader.load()
 

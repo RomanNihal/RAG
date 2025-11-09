@@ -2,6 +2,7 @@
 langchain
 langchain-core
 langchain-community
+langchain_experimental
 
 # OpenAI Integration
 langchain-openai
@@ -18,6 +19,7 @@ google-generativeai
 langchain-huggingface
 transformers
 huggingface-hub
+sentence-transformers
 
 # PyTorch (for local model inference)
 torch
