@@ -34,3 +34,4 @@ scikit-learn
 # dataset
 pypdf
 chromadb
+beautifulsoup4

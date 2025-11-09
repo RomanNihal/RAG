@@ -34,7 +34,7 @@ prompt = PromptTemplate(
 
 parser = StrOutputParser()
 
-loader = TextLoader(r"E:\RAG\cricket.txt", encoding="utf-8")
+loader = TextLoader(r"E:\RAG\documents\cricket.txt", encoding="utf-8")
 
 docs = loader.load()
 
