@@ -33,7 +33,11 @@ python-dotenv
 numpy
 scikit-learn
 
-# dataset
+# Dataset
 pypdf
 chromadb
 beautifulsoup4
+faiss-cpu
+
+# Others
+wikipedia
